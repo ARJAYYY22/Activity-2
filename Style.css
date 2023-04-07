@@ -7,7 +7,7 @@
 }
 
 #My Website{
-    font-family: Arial;
+    font-family: Arial,
 Helvetica, sans-serif;
 
 }
@@ -18,7 +18,7 @@ Helvetica, sans-serif;
 url('img/landing-img.jpg');
 background-size: cover;
 background-repeat:no-repeat
-repeat
+repeat;
 
         height: 100vh;
         color: grey ;
@@ -40,8 +40,78 @@ text-shadow: 3px 3px 1px black;
 }
 
 #blog{
-margin-top: 120px;
+margin-top: 130px;
 text-align: center;
+display: inline-block;
+width: 100%;
 
 
 }
+
+img{
+height: 150px;
+width: 2250px;
+align-items: center;
+}
+#blog div{
+border: 2px solid lightgray;
+width: 20%;
+height: 350px;
+border-radius: 10px;
+border-image: width auto;
+margin-top: 7px;
+justify-content:space-between;
+box-shadow: 1px 1px 1px lightgray;
+
+
+}
+
+div h3{
+    padding-top: 3px;
+    margin-right: 100px;
+
+}
+div p{
+    padding: 10px;
+    text-align: justify;
+    padding: 20px;
+
+}
+div a{
+    padding: 10px;
+    color: grey;
+    text-decoration: none;
+
+}
+div:nth-child(4){
+    background-color: black;
+    color: white;
+
+}
+div::nth-child(4) a :hover{
+    color: red;
+}
+#services{
+    text-align: center;
+    margin-top: 200px;
+    background-color: lightgray;
+    padding: 100%;
+
+}
+ul li{
+    display:inline-block;
+    background-color: white;
+    padding: 30%;
+    margin-top: 30px;
+    width: 10%;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+li :first-child:hover{
+    background-color: orangered;
+
+}
+li:nth-child(4){
+    box-shadow: 0 1px 3px 3px rgba(0,0, 0, 19);
+}
+
