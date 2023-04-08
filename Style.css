@@ -28,6 +28,9 @@ repeat;
 }
  
 #landing h1{
+    position:absolute;
+    bottom: 240px;
+    left: 450px;
      font-size: 60px;
      text-shadow: 3px 3px 1px black;
 
