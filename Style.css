@@ -28,18 +28,12 @@ repeat;
 }
  
 #landing h1{
-    position:absolute;
-    bottom: 270px;
-    left: 300px;
-     font-size: 50px;
+    font-size: 20px;
      text-shadow: 3px 3px 1px black;
 
 
 }
 #landing p{
-    position: absolute;
-    bottom: 240px;
-left: 450;
 font-size: 20px;
 text-shadow: 3px 3px 1px black;
 
@@ -56,11 +50,11 @@ width: 100%;
 
 img{
 height: 150px;
-width: 2250px;
+width: 250px;
 align-items: center;
 }
 #blog div{
-border: 2px solid lightgray;
+border: 1px solid lightgray;
 width: 20%;
 height: 350px;
 border-radius: 10px;
