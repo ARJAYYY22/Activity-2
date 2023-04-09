@@ -17,8 +17,8 @@ Helvetica, sans-serif;
         
 url('img/landing-img.jpg');
 background-size: cover;
-background-repeat:no-repeat
-repeat;
+background-repeat:repeat
+no-repeat;
 
         height: 100vh;
         color: grey ;
@@ -28,7 +28,7 @@ repeat;
 }
  
 #landing h1{
-    font-size: 20px;
+    font-size: 70px;
      text-shadow: 3px 3px 1px black;
 
 
@@ -60,6 +60,9 @@ height: 350px;
 border-radius: 10px;
 border-image: width auto;
 margin-top: 7px;
+display: inline-block;
+padding: 10px;
+margin-top: 50px;
 justify-content:space-between;
 box-shadow: 1px 1px 1px lightgray;
 
@@ -78,7 +81,7 @@ div p{
 
 }
 div a{
-    padding: 10px;
+    margin-right:100px;
     color: grey;
     text-decoration: none;
 
